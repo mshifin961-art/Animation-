@@ -3,26 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Energy Core</title>
+<title>Landing Scene</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main id="scene">
-<div class="grid"></div>
-<div class="core-wrap" id="coreWrap">
-<div class="ring ring-a"></div><div class="ring ring-b"></div><div class="ring ring-c"></div>
-<div class="core-glow"></div>
-<div class="core" id="core"><div class="core-inner"></div></div>
-<div class="charge-ring"></div>
-</div>
-<div class="particles" id="particles"></div>
-<div class="shockwave" id="shockwave"></div>
-<div class="hud">
-<div class="title">ENERGY CORE</div>
-<div class="status" id="status">TOUCH TO CHARGE</div>
-<div class="meter"><span id="meterFill"></span></div>
-<div class="percent" id="percent">0%</div>
-</div>
+  <div class="sky-glow"></div>
+  <div class="stars" id="stars"></div>
+  <div class="ground"><div class="ground-line"></div></div>
+  <div class="box-shadow" id="boxShadow"></div>
+  <div class="box" id="box">
+    <div class="box-top"></div><div class="box-front"></div><div class="box-side"></div>
+    <div class="box-mark">X</div>
+  </div>
+  <div class="person" id="person" aria-label="person">
+    <div class="head"></div><div class="body"></div>
+    <div class="arm arm-back"></div><div class="arm arm-front"></div>
+    <div class="leg leg-back"></div><div class="leg leg-front"></div>
+  </div>
+  <div class="caption" id="caption">INCOMING</div>
 </main>
 <script src="script.js"></script>
 </body>
